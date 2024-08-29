@@ -102,9 +102,6 @@ Here are some images showcasing the application:
 </div>
 
 
-
-Make sure to replace `public/images/image1.jpg`, `public/images/image2.jpg`, `public/images/image3.jpg`, and `public/images/image4.jpg` with the paths to your actual images.
-
 ### Learn More
 
 To learn more about the technologies used, check out the following resources:
