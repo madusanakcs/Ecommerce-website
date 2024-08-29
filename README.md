@@ -93,12 +93,12 @@ Ensure you have the following installed:
 Here are some images showcasing the application:
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="public/images/i(1).png" alt="Image 1" width="300" style="flex: 1; max-width: 48%;"/>
-  <img src="public/images/i(2).png" alt="Image 2" width="300" style="flex: 1; max-width: 48%;"/>
-  <img src="public/images/i(3).png" alt="Image 3" width="300" style="flex: 1; max-width: 48%;"/>
-  <img src="public/images/i(4).png" alt="Image 4" width="300" style="flex: 1; max-width: 48%;"/>
-  <img src="public/images/i(5).png" alt="Image 5" width="300" style="flex: 1; max-width: 48%;"/>
-  <img src="public/images/i(6).png" alt="Image 6" width="300" style="flex: 1; max-width: 48%;"/>
+  <img src="public/images/i(1).png" alt="Image 1" width="400" style="flex: 1; max-width: 48%;"/>
+  <img src="public/images/i(2).png" alt="Image 2" width="400" style="flex: 1; max-width: 48%;"/>
+  <img src="public/images/i(3).png" alt="Image 3" width="400" style="flex: 1; max-width: 48%;"/>
+  <img src="public/images/i(4).png" alt="Image 4" width="400" style="flex: 1; max-width: 48%;"/>
+  <img src="public/images/i(5).png" alt="Image 5" width="400" style="flex: 1; max-width: 48%;"/>
+  <img src="public/images/i(6).png" alt="Image 6" width="400" style="flex: 1; max-width: 48%;"/>
 </div>
 
 
