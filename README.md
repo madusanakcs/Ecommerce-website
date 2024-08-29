@@ -87,17 +87,20 @@ Ensure you have the following installed:
 - **Cart:** Add products to the shopping cart and view cart details.
 - **Checkout:** Complete purchases using Stripe for payment processing.
 - **Sanity CMS:** Manage content, including products and blog posts, via the Sanity studio.
-
+- 
 ### Image Gallery
 
 Here are some images showcasing the application:
 
-1. <img src="public/images/i(1).png" alt="Image 1" width="200"/>
-2. <img src="public/images/i(2).png" alt="Image 2" width="200"/>
-3. <img src="public/images/i(3).png" alt="Image 3" width="200"/>
-4. <img src="public/images/i(4).png" alt="Image 4" width="200"/>
-5. <img src="public/images/i(5).png" alt="Image 5" width="200"/>
-6. <img src="public/images/i(6).png" alt="Image 6" width="200"/>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="public/images/i(1).png" alt="Image 1" width="300" style="flex: 1; max-width: 48%;"/>
+  <img src="public/images/i(2).png" alt="Image 2" width="300" style="flex: 1; max-width: 48%;"/>
+  <img src="public/images/i(3).png" alt="Image 3" width="300" style="flex: 1; max-width: 48%;"/>
+  <img src="public/images/i(4).png" alt="Image 4" width="300" style="flex: 1; max-width: 48%;"/>
+  <img src="public/images/i(5).png" alt="Image 5" width="300" style="flex: 1; max-width: 48%;"/>
+  <img src="public/images/i(6).png" alt="Image 6" width="300" style="flex: 1; max-width: 48%;"/>
+</div>
+
 
 
 Make sure to replace `public/images/image1.jpg`, `public/images/image2.jpg`, `public/images/image3.jpg`, and `public/images/image4.jpg` with the paths to your actual images.
