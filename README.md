@@ -92,11 +92,13 @@ Ensure you have the following installed:
 
 Here are some images showcasing the application:
 
-1. ![Image 1](public/images/i(1).png)
-2. ![Image 2](public/images/i(2).png)
-3. ![Image 3](public/images/i(3).png)
-4. ![Image 4](public/images/i(4).png)
-5. ![Image 5](public/images/i(5).png)
+1. <img src="public/images/i(1).png" alt="Image 1" width="200"/>
+2. <img src="public/images/i(2).png" alt="Image 2" width="200"/>
+3. <img src="public/images/i(3).png" alt="Image 3" width="200"/>
+4. <img src="public/images/i(4).png" alt="Image 4" width="200"/>
+5. <img src="public/images/i(5).png" alt="Image 5" width="200"/>
+6. <img src="public/images/i(6).png" alt="Image 6" width="200"/>
+
 
 Make sure to replace `public/images/image1.jpg`, `public/images/image2.jpg`, `public/images/image3.jpg`, and `public/images/image4.jpg` with the paths to your actual images.
 
