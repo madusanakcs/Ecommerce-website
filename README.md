@@ -1,40 +1,120 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# E-Commerce Application
+
+This is an e-commerce application built with [Next.js](https://nextjs.org/), [Sanity](https://www.sanity.io/), [React](https://reactjs.org/), and [Stripe](https://stripe.com/). The project provides a scalable and customizable platform for online shopping.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Prerequisites
+
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (for managing packages)
+- [Sanity CLI](https://www.sanity.io/docs/getting-started-with-sanity-cli) (for managing Sanity content)
+- [Stripe CLI](https://stripe.com/docs/stripe-cli) (for testing Stripe integrations)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/e-commerce-app.git
+   cd e-commerce-app
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Set up environment variables:**
+
+   Create a `.env.local` file in the root directory and add the following environment variables:
+
+   ```plaintext
+   NEXT_PUBLIC_SANITY_PROJECT_ID=your-sanity-project-id
+   NEXT_PUBLIC_SANITY_DATASET=your-sanity-dataset
+   STRIPE_SECRET_KEY=your-stripe-secret-key
+   STRIPE_PUBLIC_KEY=your-stripe-public-key
+   ```
+
+   Replace `your-sanity-project-id`, `your-sanity-dataset`, `your-stripe-secret-key`, and `your-stripe-public-key` with your actual credentials.
+
+4. **Set up Sanity:**
+
+   Navigate to the Sanity studio directory and install its dependencies:
+
+   ```bash
+   cd studio
+   npm install
+   ```
+
+   Run the Sanity studio:
+
+   ```bash
+   npm run start
+   ```
+
+5. **Run the development server:**
+
+   Return to the main project directory and start the Next.js development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the application in action.
+
+### Folder Structure
+
+- `pages/` - Contains the React pages of the application.
+- `components/` - Reusable React components.
+- `lib/` - Utility functions and API calls.
+- `studio/` - Sanity studio configuration and schemas.
+- `public/` - Static assets like images and fonts.
+
+### Features
+
+- **Product Listing:** Browse and filter products.
+- **Product Details:** View detailed information about products.
+- **Cart:** Add products to the shopping cart and view cart details.
+- **Checkout:** Complete purchases using Stripe for payment processing.
+- **Sanity CMS:** Manage content, including products and blog posts, via the Sanity studio.
+
+### Image Gallery
+
+Here are some images showcasing the application:
+
+1. ![Image 1](public/images/image1.jpg)
+2. ![Image 2](public/images/image2.jpg)
+3. ![Image 3](public/images/image3.jpg)
+4. ![Image 4](public/images/image4.jpg)
+
+Make sure to replace `public/images/image1.jpg`, `public/images/image2.jpg`, `public/images/image3.jpg`, and `public/images/image4.jpg` with the paths to your actual images.
+
+### Learn More
+
+To learn more about the technologies used, check out the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Sanity Documentation](https://www.sanity.io/docs) - Learn about Sanity content management.
+- [React Documentation](https://reactjs.org/docs/getting-started.html) - Learn about React features and API.
+- [Stripe Documentation](https://stripe.com/docs) - Learn about Stripe payment processing.
+
+### Deployment
+
+To deploy the application, follow the [Next.js deployment documentation](https://nextjs.org/docs/deployment) and configure your environment variables accordingly. You can deploy the app on [Vercel](https://vercel.com/) for a seamless deployment experience.
+
+### Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request to the [GitHub repository](https://github.com/your-username/e-commerce-app) if you have suggestions or improvements.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Let me know if you need any further adjustments!
