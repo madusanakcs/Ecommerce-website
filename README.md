@@ -92,10 +92,11 @@ Ensure you have the following installed:
 
 Here are some images showcasing the application:
 
-1. ![Image 1](public/images/image1.jpg)
-2. ![Image 2](public/images/image2.jpg)
-3. ![Image 3](public/images/image3.jpg)
-4. ![Image 4](public/images/image4.jpg)
+1. ![Image 1](public/images/i(1).jpg)
+2. ![Image 2](public/images/i(2).jpg)
+3. ![Image 3](public/images/i(3).jpg)
+4. ![Image 4](public/images/i(4).jpg)
+5. ![Image 5](public/images/i(5).jpg)
 
 Make sure to replace `public/images/image1.jpg`, `public/images/image2.jpg`, `public/images/image3.jpg`, and `public/images/image4.jpg` with the paths to your actual images.
 
